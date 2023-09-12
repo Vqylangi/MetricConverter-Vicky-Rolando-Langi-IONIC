@@ -1,0 +1,84 @@
+/* styles.css */
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  ion-select {
+    width: 100%;
+    border: 1px solid #4e6a6c;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ion-button {
+    margin-top: 8px;
+    margin-left: 1px;
+    margin-right: 5px;
+    padding-right: 15px;
+    width: 10vh;
+    height: 7vh;
+    animation: buttonClickAnimation 0.3s ease infinite;
+  }
+  ion-button{
+    transform: translateY(1px); 
+    transition: transform 0.2s;
+  }
+  ion-button.Button-Konversi{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  ion-button.Button-Konversi:active{
+    transform: translateY(2px); 
+    transition: transform 0.2s;
+  }
+  ion-button.Mulai{
+    width: 100%;
+    animation: buttonAnimation 0.3s ease infinite;
+  }
+  ion-button.Mulai:active {
+    transform: translateY(2px); 
+    transition: transform 0.2s;
+  }
+  .result-label {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .custom-input-tab {
+    width: 100%;
+    border: 1px solid #ccc;  
+    border-radius: 5px; 
+    padding: 10px;  
+    font-size: 18px;
+  }
+ion-toolbar.pembuat{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 5%;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+ion-title{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 3px;
+}
