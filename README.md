@@ -1,5 +1,4 @@
 # MetricConverter-Vicky-Rolando-Langi-IONIC
 
 # My GIF
-![](https://github.com/MetricConverter-Vicky-Rolando-Langi-IONIC/assets/MetricConverter-VickyRolandoLangi.gif)
-![Uploading MetricConverter-VickyRolandoLangi.gif…]()
+![](https://github.com/Vqylangi/MetricConverter-Vicky-Rolando-Langi-IONIC/blob/main/assets/MetricConverter-VickyRolandoLangi.gif)
